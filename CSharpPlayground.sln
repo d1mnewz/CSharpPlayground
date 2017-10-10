@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.3
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Demo", "01_Demo\01_Demo.csproj", "{658C6CB0-9EF7-49D9-94A4-8DB8E8BE0C9E}"
 EndProject
@@ -11,7 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "102_UndocumentedKeywords", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_FunctionalErrorHandling", "03_FunctionalErrorHandling\03_FunctionalErrorHandling.csproj", "{0CA36A4A-7B99-42C7-9217-E6FEFB21E662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Demo_Interfaces", "02_Demo_Interfaces\02_Demo_Interfaces.csproj", "{75F0DE2D-1C2C-4D02-A2B9-2B10E8764E62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Demo_Interfaces", "02_Demo_Interfaces\02_Demo_Interfaces.csproj", "{75F0DE2D-1C2C-4D02-A2B9-2B10E8764E62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_ApiConcurrencyTest", "04_ApiConcurrencyTest\04_ApiConcurrencyTest.csproj", "{5757ED66-A4D6-406A-841E-55B6BFDD43FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ApiConcurrencyTestCore", "05_ApiConcurrencyTestCore\05_ApiConcurrencyTestCore.csproj", "{AD9C6C1A-037D-4042-A6C9-87AA246256E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{75F0DE2D-1C2C-4D02-A2B9-2B10E8764E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75F0DE2D-1C2C-4D02-A2B9-2B10E8764E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75F0DE2D-1C2C-4D02-A2B9-2B10E8764E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5757ED66-A4D6-406A-841E-55B6BFDD43FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5757ED66-A4D6-406A-841E-55B6BFDD43FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5757ED66-A4D6-406A-841E-55B6BFDD43FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5757ED66-A4D6-406A-841E-55B6BFDD43FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9C6C1A-037D-4042-A6C9-87AA246256E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9C6C1A-037D-4042-A6C9-87AA246256E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9C6C1A-037D-4042-A6C9-87AA246256E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9C6C1A-037D-4042-A6C9-87AA246256E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
