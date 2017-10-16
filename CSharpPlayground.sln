@@ -23,6 +23,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_ThreadPool", "07_ThreadP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_DictionaryTryGetContains", "08_DictionaryTryGetContains\08_DictionaryTryGetContains.csproj", "{EB4983D1-3C99-4E14-9316-6D47C787B522}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_ThreadPoolAspCore", "09_ThreadPoolAspCore\09_ThreadPoolAspCore.csproj", "{8D57D210-1FB7-42CA-802C-8149310CAB8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Threads", "10_Threads\10_Threads.csproj", "{7259D6DB-6119-4F52-9F5D-573DEAC29295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Singleton", "11_Singleton\11_Singleton.csproj", "{71940A7C-652E-49A6-8E96-40189CCD72E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_LosingHttpContextConfigureAwait", "12_LosingHttpContextConfigureAwait\12_LosingHttpContextConfigureAwait.csproj", "{A5A13682-3459-43A5-A7EF-3D0F8143BBF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_LosingHttpContextConfigureAwaitVanilla", "13_LosingHttpContextConfigureAwaitVanilla\13_LosingHttpContextConfigureAwaitVanilla.csproj", "{983778F9-6614-4096-A3A0-9579E5D6B18C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +79,26 @@ Global
 		{EB4983D1-3C99-4E14-9316-6D47C787B522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB4983D1-3C99-4E14-9316-6D47C787B522}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB4983D1-3C99-4E14-9316-6D47C787B522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D57D210-1FB7-42CA-802C-8149310CAB8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D57D210-1FB7-42CA-802C-8149310CAB8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D57D210-1FB7-42CA-802C-8149310CAB8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D57D210-1FB7-42CA-802C-8149310CAB8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7259D6DB-6119-4F52-9F5D-573DEAC29295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7259D6DB-6119-4F52-9F5D-573DEAC29295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7259D6DB-6119-4F52-9F5D-573DEAC29295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7259D6DB-6119-4F52-9F5D-573DEAC29295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71940A7C-652E-49A6-8E96-40189CCD72E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71940A7C-652E-49A6-8E96-40189CCD72E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71940A7C-652E-49A6-8E96-40189CCD72E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71940A7C-652E-49A6-8E96-40189CCD72E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A13682-3459-43A5-A7EF-3D0F8143BBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A13682-3459-43A5-A7EF-3D0F8143BBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A13682-3459-43A5-A7EF-3D0F8143BBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A13682-3459-43A5-A7EF-3D0F8143BBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{983778F9-6614-4096-A3A0-9579E5D6B18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983778F9-6614-4096-A3A0-9579E5D6B18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983778F9-6614-4096-A3A0-9579E5D6B18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983778F9-6614-4096-A3A0-9579E5D6B18C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
