@@ -6,7 +6,7 @@ namespace _98_GraphsWorkout
 {
 	public class Program
 	{
-		static void Main()
+		private static void Main()
 		{
 
 			var graph = new Graph();
@@ -17,10 +17,10 @@ namespace _98_GraphsWorkout
 
 			var traversers = new List<IGraphTraverser> { new BreadthFirstTraverser(), new DepthFirstTraveser() };
 
-			foreach (var graphTraverser in traversers)
+			foreach (var traverser in traversers)
 			{
-				Console.WriteLine(graphTraverser.GetType().Name);
-				graphTraverser.Traverse(graph);
+				Console.WriteLine(traverser.GetType().Name);
+				traverser.Traverse(graph);
 			}
 		}
 	}

@@ -4,6 +4,7 @@ namespace _98_GraphsWorkout
 {
 	public class Graph
 	{
+		// TODO: mark nodes as visited to avoid infinite loop
 		private IList<Node> _nodes { get; set; }
 		public IEnumerable<Node> Nodes => _nodes;
 
@@ -11,7 +12,7 @@ namespace _98_GraphsWorkout
 
 		public Graph()
 		{
-			this._nodes = new List<Node>();
+			_nodes = new List<Node>();
 			_size = 0;
 		}
 

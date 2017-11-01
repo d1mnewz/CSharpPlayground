@@ -1,7 +1,9 @@
-﻿namespace _98_GraphsWorkout
+﻿using System.Collections.Generic;
+
+namespace _98_GraphsWorkout
 {
 	public interface IGraphTraverser
 	{
-		void Traverse(Graph graph, int startNode = 0);
+		IEnumerable<int> Traverse(Graph graph, int startNode = 0);
 	}
 }
