@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Demo", "01_Demo\01_Demo.csproj", "{658C6CB0-9EF7-49D9-94A4-8DB8E8BE0C9E}"
 EndProject
@@ -19,19 +19,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_ApiConcurrencyTestCore",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_TPLPlayground", "06_TPLPlayground\06_TPLPlayground.csproj", "{2B5DE29F-A10C-4C6B-AA29-B6962385E0CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_ThreadPool", "07_ThreadPool\07_ThreadPool.csproj", "{CF2C7FB5-F7E5-4B39-AA75-A11A8DFC0B2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_ThreadPool", "07_ThreadPool\07_ThreadPool.csproj", "{CF2C7FB5-F7E5-4B39-AA75-A11A8DFC0B2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_DictionaryTryGetContains", "08_DictionaryTryGetContains\08_DictionaryTryGetContains.csproj", "{EB4983D1-3C99-4E14-9316-6D47C787B522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_DictionaryTryGetContains", "08_DictionaryTryGetContains\08_DictionaryTryGetContains.csproj", "{EB4983D1-3C99-4E14-9316-6D47C787B522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_ThreadPoolAspCore", "09_ThreadPoolAspCore\09_ThreadPoolAspCore.csproj", "{8D57D210-1FB7-42CA-802C-8149310CAB8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_ThreadPoolAspCore", "09_ThreadPoolAspCore\09_ThreadPoolAspCore.csproj", "{8D57D210-1FB7-42CA-802C-8149310CAB8E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Threads", "10_Threads\10_Threads.csproj", "{7259D6DB-6119-4F52-9F5D-573DEAC29295}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Singleton", "11_Singleton\11_Singleton.csproj", "{71940A7C-652E-49A6-8E96-40189CCD72E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Singleton", "11_Singleton\11_Singleton.csproj", "{71940A7C-652E-49A6-8E96-40189CCD72E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_LosingHttpContextConfigureAwait", "12_LosingHttpContextConfigureAwait\12_LosingHttpContextConfigureAwait.csproj", "{A5A13682-3459-43A5-A7EF-3D0F8143BBF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_LosingHttpContextConfigureAwait", "12_LosingHttpContextConfigureAwait\12_LosingHttpContextConfigureAwait.csproj", "{A5A13682-3459-43A5-A7EF-3D0F8143BBF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_LosingHttpContextConfigureAwaitVanilla", "13_LosingHttpContextConfigureAwaitVanilla\13_LosingHttpContextConfigureAwaitVanilla.csproj", "{983778F9-6614-4096-A3A0-9579E5D6B18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "98_GraphsWorkout", "98_GraphsWorkout\98_GraphsWorkout.csproj", "{15CA9F87-0282-418D-81B9-3E1A9C9DEED7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{983778F9-6614-4096-A3A0-9579E5D6B18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{983778F9-6614-4096-A3A0-9579E5D6B18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{983778F9-6614-4096-A3A0-9579E5D6B18C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15CA9F87-0282-418D-81B9-3E1A9C9DEED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CA9F87-0282-418D-81B9-3E1A9C9DEED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CA9F87-0282-418D-81B9-3E1A9C9DEED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CA9F87-0282-418D-81B9-3E1A9C9DEED7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
