@@ -8,7 +8,9 @@ namespace _98_GraphsWorkout
 	{
 		private static void Main()
 		{
-
+			//		  0
+			//		1   2
+			//    3
 			var graph = new Graph();
 			graph.Add(new Node(0));
 			graph.Nodes.ElementAt(0).AddNeighbor(1);
@@ -21,6 +23,8 @@ namespace _98_GraphsWorkout
 			{
 				Console.WriteLine(traverser.GetType().Name);
 				traverser.Traverse(graph);
+				// BFS: 0, 1, 2, 3
+				// DFS: 0, 2, 1, 3
 			}
 		}
 	}

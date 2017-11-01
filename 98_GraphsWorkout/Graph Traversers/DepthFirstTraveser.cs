@@ -5,7 +5,6 @@ namespace _98_GraphsWorkout
 {
 	public class DepthFirstTraveser : IGraphTraverser
 	{
-
 		IEnumerable<int> IGraphTraverser.Traverse(Graph graph, int startNode)
 		{
 			var resultingSequence = new List<int>();
