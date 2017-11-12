@@ -9,8 +9,7 @@ namespace _99_Sortings
         public IList<T> Sort<T>(IList<T> toSort, bool asc = true)
             where T : IComparable<T>
         {
-            int a = default;
-            var length = toSort.Count - 1;
+	        var length = toSort.Count - 1;
             if (length <= 1)
                 return toSort;
             if (asc)

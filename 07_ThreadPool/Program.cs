@@ -16,7 +16,7 @@ namespace _07_ThreadPool
 		/// </summary>
 		static void Main()
 		{
-			var logicalProcessorCount = System.Environment.ProcessorCount;
+			var logicalProcessorCount = Environment.ProcessorCount;
 			ThreadPool.GetMinThreads(out var minimumWorkerThreadCount, out var minimumIocThreadCount);
 			ThreadPool.GetMaxThreads(out var maxWorkerThreads, out var maxIocThreads);
 			ThreadPool.GetAvailableThreads(out var availableWorkerThreads, out var availableIocThreads);

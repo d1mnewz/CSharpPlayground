@@ -1,5 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
-using System;
+﻿using System;
+using Microsoft.Extensions.Logging;
 using static System.Console;
 
 namespace _02_Demo_Interfaces
@@ -35,7 +35,7 @@ namespace _02_Demo_Interfaces
 	{
 		public void Log(string message)
 		{
-			throw new System.NotImplementedException();
+			throw new NotImplementedException();
 		}
 
 	}

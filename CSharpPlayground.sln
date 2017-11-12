@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Demo", "01_Demo\01_Demo.csproj", "{658C6CB0-9EF7-49D9-94A4-8DB8E8BE0C9E}"
 EndProject
@@ -36,6 +36,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "98_GraphsWorkout", "98_GraphsWorkout\98_GraphsWorkout.csproj", "{15CA9F87-0282-418D-81B9-3E1A9C9DEED7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_DynamicModel", "14_DynamicModel\14_DynamicModel.csproj", "{8DBFA87B-1114-4B37-B9CF-0FB4328EFBDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "100_SuperPlayground", "100_SuperPlayground\100_SuperPlayground.csproj", "{E8718F36-8C50-48CC-AC56-A3587DFF38FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{8DBFA87B-1114-4B37-B9CF-0FB4328EFBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DBFA87B-1114-4B37-B9CF-0FB4328EFBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DBFA87B-1114-4B37-B9CF-0FB4328EFBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8718F36-8C50-48CC-AC56-A3587DFF38FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8718F36-8C50-48CC-AC56-A3587DFF38FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8718F36-8C50-48CC-AC56-A3587DFF38FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8718F36-8C50-48CC-AC56-A3587DFF38FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

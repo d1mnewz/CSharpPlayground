@@ -6,7 +6,7 @@ namespace _11_Singleton
 	{
 		private static object syncObject = new object();
 
-		private static SingletonThreadSafeWithMonitor _instance = null;
+		private static SingletonThreadSafeWithMonitor _instance;
 
 		public static SingletonThreadSafeWithMonitor Instance
 		{
