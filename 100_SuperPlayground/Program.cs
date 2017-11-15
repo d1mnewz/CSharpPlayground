@@ -1,32 +1,28 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace _100_SuperPlayground
 {
-
-	class Range<T>
+	public class Foo : IFoo
 	{
-		private readonly T _start;
-		private readonly T _end;
+		public int Dummy { get; set; }
 
-		public Range(T start, T end)
+
+		public override Foo default()
 		{
-			_start = start;
-			_end = end;
+			return new Foo { Dummy = 69 };
 		}
+	}
 
-		public T Start
+	interface IFoo
+	{
+		int Dummy { get; set; }
+		IFoo default()
 		{
-			get { return _start; }
-		}
-
-		public T End
-		{
-			get { return _end; }
-		}
-
-		public bool IsValid()
-		{
-			return _start <= _end;
+			return new Foo
+			{
+				Dummy = 42
+			};
 		}
 	}
 
@@ -34,9 +30,8 @@ namespace _100_SuperPlayground
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine(new Range(1, 10).IsValid());
-			Console.WriteLine(new Range(20, 5).IsValid());
-			Console.ReadLine();
+			var foo = default(IFoo); // type is Foo, foo.Dummy is 42
+			var Foo = default(Foo); // type is Foo, foo.Dummy is 69
 		}
 	}
 }
