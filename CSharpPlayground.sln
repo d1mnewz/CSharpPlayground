@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopshelfQuartzScheduler", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopshelfQuartzVanilla", "TopshelfQuartzVanilla\TopshelfQuartzVanilla.csproj", "{E010CDAF-D1E1-4A12-8CD8-7F25A5399709}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxSquareAreaRectangle", "MaxSquareAreaRectangle\MaxSquareAreaRectangle.csproj", "{FFE840E2-7940-4095-BF15-1EB6F1CA1A5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{E010CDAF-D1E1-4A12-8CD8-7F25A5399709}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E010CDAF-D1E1-4A12-8CD8-7F25A5399709}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E010CDAF-D1E1-4A12-8CD8-7F25A5399709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE840E2-7940-4095-BF15-1EB6F1CA1A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE840E2-7940-4095-BF15-1EB6F1CA1A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE840E2-7940-4095-BF15-1EB6F1CA1A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE840E2-7940-4095-BF15-1EB6F1CA1A5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
