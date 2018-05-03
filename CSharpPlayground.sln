@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopshelfQuartzVanilla", "To
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxSquareAreaRectangle", "MaxSquareAreaRectangle\MaxSquareAreaRectangle.csproj", "{FFE840E2-7940-4095-BF15-1EB6F1CA1A5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitSample", "MassTransitSample\MassTransitSample.csproj", "{4892755B-5FFA-438E-B914-4E302796ADF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopCoderProblemsA", "TopCoderProblemsA\TopCoderProblemsA.csproj", "{2029F1EB-4252-4EB1-9834-62A6997EAF87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{FFE840E2-7940-4095-BF15-1EB6F1CA1A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFE840E2-7940-4095-BF15-1EB6F1CA1A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFE840E2-7940-4095-BF15-1EB6F1CA1A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4892755B-5FFA-438E-B914-4E302796ADF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4892755B-5FFA-438E-B914-4E302796ADF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4892755B-5FFA-438E-B914-4E302796ADF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4892755B-5FFA-438E-B914-4E302796ADF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2029F1EB-4252-4EB1-9834-62A6997EAF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2029F1EB-4252-4EB1-9834-62A6997EAF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2029F1EB-4252-4EB1-9834-62A6997EAF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2029F1EB-4252-4EB1-9834-62A6997EAF87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
